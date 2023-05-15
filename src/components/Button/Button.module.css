@@ -1,0 +1,38 @@
+.genericButton {
+    width: 120px;
+    border-radius: var(--border-radiux-8px);
+
+    font-family: var(--ff);
+    font-weight: var(--fw700);
+
+    color: #fff;
+    background: var(--CTA-color-CornFlower-Blue);
+    background-color: var(--CTA-color-CornFlower-Blue);
+}
+
+.genericButton--disabled {
+    cursor: default;
+    color: #fff;
+    border: 0;
+    background: var(--Disabled-Button);
+}
+
+.login {
+    width: 111px;
+    margin-left: auto;
+}
+
+.cancel {
+    border: 1px solid #999999;
+
+    color: #000;
+    background: #fff;
+}
+
+.save {
+    background: #47B960;
+}
+
+.delete {
+    background: #FF5151;
+}

@@ -1,0 +1,24 @@
+.alert {
+    margin-bottom: var(--spacing-24px);
+    box-sizing: border-box;
+    padding: var(--spacing-24px);
+    border-radius: var(--border-radiux-8px);
+    
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    color: #000;
+}
+
+.alert--danger {
+    background-color: var(--Alert-danger-tomato);
+}
+
+.alert--success {
+    background-color: var(--Alert-success-emerald);
+}
+
+.alert-message {
+    margin: 0;
+}

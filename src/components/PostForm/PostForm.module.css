@@ -1,0 +1,18 @@
+.form { gap: var(--spacing-24px); }
+
+.form,
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section { gap: calc(var(--spacing-24px / 3)); }
+
+.form-section-buttons {
+    display: flex;
+    justify-content: end;
+}
+
+.form-section-buttons > *:not(:last-child){
+    margin-right: 16px;
+}

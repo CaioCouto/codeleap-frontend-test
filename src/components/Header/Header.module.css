@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    height: 80px;
+    padding: var(--spacing-24px);
+    box-sizing: border-box;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--CTA-color-CornFlower-Blue);
+}
+
+.header-brand {
+    margin: 0;
+    font-weight: var(--fw700);
+}
+
+.header-icon:hover { cursor: pointer; }

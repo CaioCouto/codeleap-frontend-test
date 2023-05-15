@@ -1,0 +1,32 @@
+.login {
+    box-sizing: border-box;
+
+    width: 90%;
+    max-width: 500px;
+    margin: 10px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-24px);
+
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: calc(var(--border-radiux-8px) * 2);
+    padding: 24px;
+}
+
+.login-title,
+.login-form-label {
+    margin: 0;
+    color: #000
+}
+
+.login-form,
+.login-form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form { gap: 1rem; }
+
+.login-form-section { gap: .5rem; }

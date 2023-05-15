@@ -1,0 +1,45 @@
+:root {
+  /* Colors */
+  --CTA-color-CornFlower-Blue: #7695EC;
+  --Disabled-Button: #777;
+  --Alert-danger-tomato: #FE654F;
+  --Alert-success-emerald: #6FD08C;
+
+  /* Fonts */
+  --ff: Roboto, sans serif;
+  --fw700: 700; 
+
+  /* Misc */
+  --border-radiux-8px: 8px;
+  --spacing-24px: 24px;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+
+  position: relative;
+
+  font-family: var(--ff);
+  background-color: #DDDDDD;
+}
+
+@media (min-width: 900px) {
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #root > *,
+  #modal-section {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1200px) {  
+  #root > *,
+  #modal-section {
+    width: 50%;
+  }
+}

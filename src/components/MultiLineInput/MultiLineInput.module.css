@@ -1,0 +1,12 @@
+.textarea {
+    width: 100%;
+    padding: .5rem;
+    
+    resize: none;
+    box-sizing: border-box;
+
+    color: #000;
+    background: #fff;
+    border: 1px solid #777777;
+    border-radius: var(--border-radiux-8px);
+}
